@@ -1,5 +1,6 @@
 <?php
     include("connection.php");
+    include("exemplo.http");
 
     $texto = "\n Ola";
     echo nl2br($texto);
