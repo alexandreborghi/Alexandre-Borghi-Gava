@@ -13,7 +13,7 @@ content-type: application/json
 ### rota de carregar o import retorna a diferença entre o esperado e o enviado
 POST https://psel.apoena.shinier.com.br/api/import/create HTTP/1.1
 content-type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
-Authorization: Bearer ey… token gerado no login …jjsy8iGl8wFu7MGrhaV6l8
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5OGM4ZGZhOS0zZWMwLTQ4MmUtYTA4ZC1lOGJlYzhhYmEwNDYiLCJqdGkiOiIwYWZlZTNkZGUwMDhlOGYxNGZhNmVmMjNlZTBiYjJkODZlN2Y0MDA5MWJjZjQ0NDZkYWQ5YWUxMzA2ZDZhYTIwMDQ5M2FmOTIxNzZkZmM4YSIsImlhdCI6MTY3OTk0Nzc2MC44MzAzNjUsIm5iZiI6MTY3OTk0Nzc2MC44MzAzNywiZXhwIjoxNzExNTcwMTYwLjgyMjIyNCwic3ViIjoiZDYxNTY1YTEtZTk4My00NjEyLWFlY2ItMmViMmM2YmQ0OWIwIiwic2NvcGVzIjpbXX0.gYNoi_wD1CAS7Yd7EIk50V3mgwZygiKkfHqeCkVvSI59n8fewJWmlfN8MVyH-_MCQoCxj4_6M4rYZeQB5djIM8JvMKJJA6AOVnn8KuQzPy4-nEj5wH3q4B4LvPvu8FtX1-augZD0C0UphTDN1LOCZQw3O_jFYztN3KBAwEdYgLh9P7j1GM2_o1mtgGYTtgvlEV6HvGqHMdf9O1P88VQ2Mt1TJYHjnnCxJKvXYcxVKxMTqkOc68zNsKZ1t-53MBAM9re0C4IMHrwxCfMKlMmV1gUkT3YjmbBJwI0qT-6hVlfd3iwFUE-6xib3HCi77ELz0AC53Jt49v6ZXGgx2ZU0VUjVJjLy797Xre0zZLz2ZTha4e_a9H5emI8HCJjCkcqypw8Rfh6MTwTXIPni7LDhsvIA7QVBGkmTjrNfe7EvZ1fv99uTWitpjW4fAFx68vet7JmeFoXiYGSaoVy0vnqk70S8U9uIAvVrxVJhuM2FHoTgf_DaT02_eYL5Jb_YLs-HaA8emUsKGH7UwOxeMbdMTqc6k0eChzsF2Hd-2Y4MRPi0T9E03UDrY7Bde5DW4aj_P2ylPCVV_2nu896AantQX2zfGJYIDJqLwZPl3-6_XZKNPneVN9HHzdVFhgyyOBhpMvozc7adD-35-YhPf_ItgDHrXdK5UqUcu55n73hyEpo
 
 
 ------WebKitFormBoundary7MA4YWxkTrZu0gW
@@ -21,7 +21,7 @@ Content-Disposition: form-data; name="file"; filename="financeiro.csv"
 Content-Type: application/excel
 
 
-< /caminho/da/pasta/financeiro.csv
+ C:\Users\alexa\Desktop\clientes.csv
 ------WebKitFormBoundary7MA4YWxkTrZu0gW
 Content-Disposition: form-data; name="type"
 
@@ -36,5 +36,5 @@ Psel
 Content-Disposition: form-data; name="user_id"
 
 
-27… id do seu usuário retornado no login …14da7
+d61565a1-e983-4612-aecb-2eb2c6bd49b0
 ------WebKitFormBoundary7MA4YWxkTrZu0gW
