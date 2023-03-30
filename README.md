@@ -20,7 +20,7 @@ Continuei implementando o código em php para acessar 4 tabelas no PHPmyADMIN pa
 
 Continuei implementando a parte de enviar para a API, foi apresentado alguns erros de autenticação negada, mas consegui resolver, apareceu como sendo enviado com sucesso o arquivo para a API, utilizei php server, cliquei em server project, e stop server conforme fazia os testes, nesse server localhost:3000/index.php no meu caso mostra que a conexao foi bem succedida e arquivo enviado com sucesso, além de retornar informações sobre a API e seus status.
 
-
+fiz os ultimos ajustes no script, creio que esta certo.
 
 
 

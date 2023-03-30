@@ -14,7 +14,7 @@
     $result2 = mysqli_query($mysqli, $sql2);
 
     //Consulta para tabela 3
-    $sql3 = "SELECT * FROM odontoo";
+    $sql3 = "SELECT * FROM odonto";
     $result3 = mysqli_query($mysqli, $sql3);
 
     //Consulta para tabela 4
@@ -22,7 +22,7 @@
     $result4 = mysqli_query($mysqli, $sql4);
 
     //Criação do arquivo CSV
-    $file = fopen("arquivo.csv", "w");
+    $file = fopen("arq.csv", "w");
 
     //Escrita dos dados no arquivo CSV
     while ($row = mysqli_fetch_assoc($result)) {
@@ -44,7 +44,7 @@
     fclose($file);
 
     // Caminho para o arquivo CSV local
-    $file_path = 'arquivo.csv';
+    $file_path = 'arq.csv';
     $filePath = 'C:\Users\alexa\Documents\GitHub\Alexandre-Borghi-Gava\arquivo.csv'; // caminho do arquivo .csv a ser enviado
     $url = 'https://psel.apoena.shinier.com.br/api/import/create';
 
